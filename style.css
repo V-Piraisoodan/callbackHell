@@ -6,17 +6,21 @@ body{
 }
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    border: 1px solid rebeccapurple;
+    border: 2px solid rebeccapurple;
     border-radius: 7px;
     padding: 5px 15px;
     margin: 15px 0 0 0;
-    height: 100px;
-    width: 250px;
+    height: 150px;
+    width: 300px;
 }
 .tittle{
-    font-size: 19px;
+    font-size: 23px;
     color: blue;
+}
+.calback{
+    font-size: 20px;
+    color: crimson;
 }
